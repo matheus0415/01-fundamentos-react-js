@@ -19,6 +19,18 @@ return (
         <p> consectetur adipisicing elit. Obcaecati aspernatur quidem maxime!</p>
         <p>Debitis suscipit ipsum expedita perferendis totam culpa quo laboriosam, deserunt facere ipsa quidem, molestiae, aut sed saepe dolores?</p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea 
+        placeholder='Deixe um comentário'
+        />
+
+        <footer>
+          <button type='submit'>Publicar</button>
+        </footer>
+      </form>
     </article>
   )
 }
